@@ -1,4 +1,3 @@
-
 // variables
 const alertBanner = document.getElementById("alert");
 const trafficCanvas = document.getElementById("traffic-chart");
@@ -16,7 +15,7 @@ alertBanner.innerHTML =
     <p class="alert-banner-close">x</p>
 </div>
 `
-
+// if user clicks exit, the banner will close
 alertBanner.addEventListener('click', e => {
     const element = e.target;
     if (element.classList.contains("alert-banner-close")) {
@@ -24,7 +23,7 @@ alertBanner.addEventListener('click', e => {
     }
 });
 
-
+// array for graph showing website traffic data
 let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3",
         "4-10", "11-17", "18-24", "25-31"],
@@ -36,6 +35,7 @@ let trafficData = {
     }]
 };
 
+// for creating options you want to change for the chart
 let trafficOptions = {
     backgroundColor: 'rgba(112, 104, 210, .5)',
     fill: true,
@@ -55,12 +55,14 @@ let trafficOptions = {
     }
 }
 
+// data for the chart 
 let trafficChart = new Chart(trafficCanvas, {
     type: 'line',
     data: trafficData,
     options: trafficOptions
 });
 
+// data for daily traffic bar chart
 const dailyData = {
     labels: ["S", "M", "T", "W", "T", "F", "S"],
     datasets: [{
@@ -70,7 +72,6 @@ const dailyData = {
         borderWidth: 1
     }]
 }; 
-
 const dailyOptions = {
     scales: {
         y: {
@@ -84,12 +85,14 @@ const dailyOptions = {
     }
 };
 
+// the daily bar chart itself
 let dailyChart = new Chart(dailyCanvas, {
     type: 'bar',
     data: dailyData,
     options: dailyOptions
 });
 
+// mobile users doughnut data
 const mobileData = {
     label: ["Desktop", "Tablet", "Phones"],
     datasets: [{
@@ -104,6 +107,7 @@ const mobileData = {
     }]
 };
 
+// visual styling for doughnut data
 const mobileOptions = {
     aspectRatio: 1.9,
     plugins: {
@@ -123,9 +127,8 @@ let mobileChart = new Chart(mobileCanvas, {
     options: mobileOptions
 });
 
+//  ensures user and message fields are filled out
 send.addEventListener('click', () => {
-    
-    // ensure user and message fields are filled out
     if (user.value === "" && message.value === "" ) {
         alert("Please fill out user and message fields before sending");
     } else if (user.value === "") {
