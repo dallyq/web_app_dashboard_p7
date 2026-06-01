@@ -16,6 +16,8 @@ alertBanner.addEventListener('click', e => {
     }
 });
 
+const trafficCanvas = document.getElementById("traffic-chart");
+
 let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3",
         "4-10", "11-17", "18-24", "25-31"],
@@ -26,3 +28,22 @@ let trafficData = {
         borderWidth: 1,
     }]
 };
+
+let trafficOptions = {
+    backgroundColor: 'rgba(112, 104, 210, .5)',
+    fill: true,
+    aspectRatio: 2.5,
+    animation: {
+        duration: 0
+    },
+    scales: {
+        y: {
+            beginAtZero: true
+        }
+    },
+    plugins: {
+        legend: {
+            display: false;
+        }
+    }
+}
