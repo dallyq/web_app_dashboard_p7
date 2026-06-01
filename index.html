@@ -27,6 +27,10 @@
         <div>
             <sg></sg>
             <div id="#notifications"></div>
+            <!-- alert banner -->
+            <div class="alert" id="alert">
+                <!-- JS will insert alert here-->
+            </div>
         </div>
         <img>
         <h3></h3> 
@@ -46,6 +50,24 @@
             <col 1>
             <col 2>
         </row>
+
+        <!-- line graph charts -->
+         <section class="traffic">
+            <div class="traffic-header">
+                <h3>Traffic</h3>
+                <ul class="traffic-nav">
+                    <li class="traffic-nav-link">Hourly</li>
+                    <li class="traffic-nav-link">Daily</li>
+                    <li class="traffic-nav-link active">Weekly</li>
+                    <li class="traffic-nav-link">Monthly</li>
+                </ul>
+            </div>
+            <div class="widget-container-full">
+                <!-- element line graph will attach to -->
+                 <canvas id="traffic-chart"></canvas>
+            </div>
+         </section>
+         
     </main>
     
 </body>
