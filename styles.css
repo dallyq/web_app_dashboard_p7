@@ -9,8 +9,11 @@
 }
 
 header {
-    background-color: blue;
+    display: flex;
+    background-color: #7884d1ff;
+    justify-content: space-between;
     grid-area: header;
+    color: white;
 }
 
 .navigation {
