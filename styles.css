@@ -30,8 +30,8 @@ header {
     margin-right: auto;
 }
 
-.nav-links {
-    flex-direction: column;
+.nav-links {    
+   
 }
 
 nav {
@@ -39,6 +39,7 @@ nav {
     background-color: #595a99ff;
     display: flex;
     flex-direction: column; 
+    padding: 8px;
 }
 
 .main {
