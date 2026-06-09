@@ -7,7 +7,7 @@ const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
 
-// create the html for the banner
+// html for the banner
 alertBanner.innerHTML = 
 `
 <div class="alert-banner"> 
