@@ -10,10 +10,14 @@
 
 header {
     display: flex;
+    align-items: center;
     background-color: #7884d1ff;
-    justify-content: space-between;
     grid-area: header;
     color: white;
+}
+
+.main-header {
+    margin-right: auto;
 }
 
 .navigation {
