@@ -17,6 +17,15 @@ header {
     padding: 10px;
 }
 
+.bell-svg, .member {
+    padding: 10px;
+}
+
+.header-divider {
+    border-left: 0.23px solid rgb(202, 202, 202);
+    height: 35px;
+}
+
 .main-header {
     margin-right: auto;
 }
