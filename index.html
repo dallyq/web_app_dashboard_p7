@@ -9,7 +9,7 @@
 
     <header>
         <h1></h1>
-        <div class="main-header">
+        <div class="main-header" id="mainheader">
             <h2 class="headline">WebApp™</h2>
             <div class="tab"></div>
         </div>
@@ -24,8 +24,23 @@
     </header>
 
     <nav>
-        <a>
-            <img>
+        <a href="#mainheader">
+            <img src="svgs/home.svg" class="home-svg" alt="home image" style="width: 30px; height: 30px;">
+        </a>
+    </nav>
+    <nav>
+        <a href="#bargraph">
+            <img src="svgs/bar-chart.svg" class="barchart-svg" alt="bar chart image" style="width: 30px; height: 30px;">
+        </a>
+    </nav>
+    <nav>
+        <a href="#newmembers">
+            <img src="svgs/members.svg" class="members-svg" alt="members image" style="width: 30px; height: 30px;">
+        </a>
+    </nav>
+    <nav>
+        <a href="#settingscog">
+            <img src="svgs/settings.svg" class="settings-svg" alt="settings image" style="width: 30px; height: 30px;">
         </a>
     </nav>
 
@@ -56,7 +71,7 @@
          </section>
 
          <!-- bar graph -->
-          <section class="daily">
+          <section class="daily" id="bargraph">
             <h3>Daily Traffic</h3>
 
             <div class="widget-container-half">
@@ -81,7 +96,7 @@
         </div>
 
         <!-- new members widget -->
-        <section class="members">
+        <section class="members" id="newmembers">
             <h3>New Members</h3>
 
             <div class="members-container">
@@ -108,7 +123,7 @@
          </section>
 
          <!-- local storage widget -->
-        <section class="settings">
+        <section class="settings" id="settingscog">
             <h3>Settings</h3>
 
             <!-- custom CSS toggle code -->
