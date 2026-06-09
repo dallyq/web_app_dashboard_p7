@@ -37,9 +37,12 @@ header {
 nav {
     grid-area: navigation;
     background-color: #595a99ff;
-    display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 8px;
+}
+
+.nav-main {
+    display: grid;
 }
 
 .main {
