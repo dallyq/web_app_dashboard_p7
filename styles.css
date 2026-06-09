@@ -30,8 +30,11 @@ header {
     margin-right: auto;
 }
 
-.navigation {
+nav {
     grid-area: navigation;
+    background-color: #595a99ff;
+    display: flex;
+    flex-direction: column; 
 }
 
 .main {
