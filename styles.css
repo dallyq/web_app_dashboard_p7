@@ -30,6 +30,10 @@ header {
     margin-right: auto;
 }
 
+.nav-links {
+    flex-direction: column;
+}
+
 nav {
     grid-area: navigation;
     background-color: #595a99ff;
