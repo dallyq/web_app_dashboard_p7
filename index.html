@@ -11,7 +11,6 @@
     <header>
         <div class="main-header" id="mainheader">
             <h2 class="headline">WebApp™</h2>
-            <div class="tab"></div>
         </div>
         <img src="svgs/bell.svg" class="bell-svg" alt="bell image" style="width: 18px; height: 18px; fill:white">
             <!-- alert banner -->
@@ -46,6 +45,11 @@
         </nav>
     </div>
 
+        <div class="dashboard" id="the-dashboard">
+            <h2 class="headline">Dashboard</h2>
+            <div class="tab"></div>
+        </div>
+    
     <main>
         <row>
             <col 1> 
@@ -68,7 +72,7 @@
             </div>
             <div class="widget-container-full">
                 <!-- element line graph will attach to -->
-                 <canvas id="traffic-chart"></canvas>
+                <canvas id="traffic-chart"></canvas>
             </div>
          </section>
 
@@ -150,6 +154,8 @@
 
     </main>
     
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
 </html>
