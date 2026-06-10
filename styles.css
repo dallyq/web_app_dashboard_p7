@@ -41,9 +41,9 @@ nav {
     padding: 8px;
 }
 
-.nav-main {
+/* .nav-main {
     display: grid;
-}
+} */
 
 .main {
     grid-area: main;
