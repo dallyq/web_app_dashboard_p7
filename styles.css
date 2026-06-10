@@ -6,8 +6,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
+    width: 100%;
     grid-template-areas: 
     "header"
     "navigation"
@@ -69,7 +68,6 @@ a {
 
 @media (min-width: 768px) {
     .grid-container {
-        min-height: 100vh;
         grid-template-columns: 55px 1fr;
         grid-template-areas: 
             "header header"
