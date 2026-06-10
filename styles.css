@@ -39,12 +39,13 @@ header {
     background-color: #595a99ff;
     display: flex;
     flex-direction: row;
-
-    padding: 8px;
+    justify-content: center;
+    padding: 15px 0;
+    
 }
 
-nav {
-    padding: 15px 0;
+a {
+    padding-left: 20px;
 }
 
 .main {
@@ -68,6 +69,7 @@ nav {
     .nav-main {
         grid-area: navigation;
         flex-direction: column;
+        justify-content: flex-start;
         height: 100%;
     }
 
