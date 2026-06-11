@@ -73,11 +73,11 @@ header {
 }
 
 .widget-container-full,
-    .widget-container-half {
-        width: 100%;
-        position: relative;
-        height: 300px;
-    }
+.widget-container-half {
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
 
 @media (min-width: 375px) {
     .grid-container {
