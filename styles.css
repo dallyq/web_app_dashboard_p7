@@ -43,11 +43,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px 0;
-}
-
-nav img {
-    margin: 0 10px;
 }
 
 .main {
@@ -97,10 +92,6 @@ canvas {
         grid-area: navigation;
         flex-direction: row;
         height: 100%;
-    }
-
-    nav img {
-        margin: 10px 21px;
     }
 
     .main {
