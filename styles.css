@@ -53,13 +53,13 @@ nav img {
     grid-area: main;
     display: grid;
     align-items: center;
-    gap: 10px;
 }
 
 #the-dashboard {
     display: flex;
     align-items: center;
     gap: 10px;
+    grid-column: 1 / span 2;
 }
 
 .tab {
@@ -102,10 +102,14 @@ nav img {
         display: flex;
         align-items: center;
         gap: 10px;
+        grid-column: 1 / span 2;
     }
 
     .tab {
         flex: 1;
+        height: 50px;
+        width: 75%;
+        background-color: rgb(243, 243, 243);
     }
 
     .traffic, .social {
