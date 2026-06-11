@@ -15,7 +15,6 @@
 header {
     grid-area: header;
     display: flex;
-    flex-wrap: wrap; 
     align-items: center;
     background-color: #7884d1ff;
     color: white;
