@@ -79,8 +79,7 @@ nav img {
 
     .nav-main {
         grid-area: navigation;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
         height: 100%;
     }
 
