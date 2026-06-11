@@ -63,7 +63,10 @@ nav img {
 }
 
 .tab {
-    background-color: red;
+    grid-column: 2 / span 3 ;
+    height: 50px;
+    width: 75%;
+    background-color: lightgrey;
 }
 
 @media (min-width: 768px) {
@@ -90,7 +93,6 @@ nav img {
 
     .main {
         grid-area: main;
-        padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
