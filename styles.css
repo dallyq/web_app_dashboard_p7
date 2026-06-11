@@ -63,7 +63,7 @@ nav img {
 }
 
 .tab {
-    grid-column: 2 / span 3 ;
+    flex: 1;
     height: 50px;
     width: 75%;
     background-color: rgb(243, 243, 243);
@@ -96,6 +96,16 @@ nav img {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+    }
+
+    #the-dashboard {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .tab {
+        flex: 1;
     }
 
     .traffic, .social {
