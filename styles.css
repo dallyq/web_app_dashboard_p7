@@ -46,7 +46,7 @@ header {
 }
 
 nav img {
-    justify-content: space-evenly;
+    margin: 0 10px;
 }
 
 .main {
@@ -81,6 +81,10 @@ nav img {
         grid-area: navigation;
         flex-direction: row;
         height: 100%;
+    }
+
+    nav img {
+        margin: 10px 21px;
     }
 
     .main {
