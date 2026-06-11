@@ -18,6 +18,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    min-width: 290px;
     background-color: #7884d1ff;
     color: white;
 }
