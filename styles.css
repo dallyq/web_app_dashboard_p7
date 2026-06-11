@@ -56,10 +56,14 @@ nav img {
     gap: 10px;
 }
 
-.tab {
+#the-dashboard {
     display: flex;
     align-items: center;
-    background-color: black;
+    gap: 10px;
+}
+
+.tab {
+    background-color: red;
 }
 
 @media (min-width: 768px) {
@@ -104,8 +108,8 @@ nav img {
         grid-column: 2 / span 1;
     }
 
-    .widget-container-full,
+   /* .widget-container-full,
     .widget-container-half {
         width: 100%;
-    }
+    } */
 }
