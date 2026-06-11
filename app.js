@@ -1,5 +1,5 @@
 // variables
-const alertBanner = document.getElementById("alert").style.display = "none";
+const alertBanner = document.getElementById("alert");
 const trafficCanvas = document.getElementById("traffic-chart");
 const dailyCanvas = document.getElementById("daily-chart");
 const mobileCanvas = document.getElementById("mobile-chart");
