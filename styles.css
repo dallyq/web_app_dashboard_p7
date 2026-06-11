@@ -50,7 +50,6 @@ header {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    min-width: 0;
 }
 
 #the-dashboard {
@@ -59,6 +58,7 @@ header {
     gap: 10px;
     margin-left: 10px;
     grid-column: 1 / span 2;
+    min-width: 290px;
 }
 
 .tab {
@@ -68,13 +68,16 @@ header {
     background-color: rgb(243, 243, 243);
 }
 
-canvas {
-    max-width: 100%;
-}
-
 .social-container, .settings, .message, .daily, .members {
     grid-column: 1;
 }
+
+.widget-container-full,
+    .widget-container-half {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
 
 @media (min-width: 375px) {
     .grid-container {
@@ -125,11 +128,5 @@ canvas {
 
     .mobile, .activity, .settings {
         grid-column: 2 / span 1;
-    }
-
-   .widget-container-full,
-    .widget-container-half {
-        position: relative;
-        height: 300px;
     }
 }
