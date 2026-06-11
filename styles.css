@@ -56,12 +56,9 @@ nav img {
     gap: 10px;
 }
 
-.headline, .tab {
-    grid-column: -1 / -2;
-    grid-row: 1;
-}
-
 .tab {
+    display: flex;
+    align-items: center;
     background-color: black;
 }
 
