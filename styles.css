@@ -27,6 +27,10 @@ header {
     margin: 10px;
 }
 
+.headline, .student-name, .bell-svg {
+    padding: 10px;
+}
+
 .main-header {
     margin-right: auto;
 }
