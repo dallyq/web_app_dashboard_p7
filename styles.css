@@ -41,12 +41,11 @@ header {
     background-color: rgb(94, 95, 142);
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .main {
     grid-area: main;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 #the-dashboard {
@@ -168,7 +167,7 @@ input:checked + .slider:before {
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 320px) {
     .grid-container {
         grid-template-areas: 
             "header header"
@@ -226,7 +225,7 @@ input:checked + .slider:before {
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
     .grid-container {
         grid-template-areas: 
             "header header"
