@@ -75,6 +75,18 @@ header {
     border-radius: 5px;
     color: white;
     background-color: #7884d1ff;
+    height: 40px;
+}
+
+#save,
+#cancel {
+    width: 50%;
+    display: flex;
+    
+}
+
+#send {
+    width: 100%;
 }
 
 /* The switch - the box around the slider */
