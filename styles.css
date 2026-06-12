@@ -63,10 +63,6 @@ header {
     background-color: rgb(243, 243, 243);
 }
 
-.settings, .message {
-    grid-column: 1 / -1;
-}
-
 #send,
 #save, 
 #cancel,
@@ -75,11 +71,17 @@ header {
 #timezone {
     border-radius: 5px;
     height: 40px;
-    width: 100%;
+    width: 60%;
 }
 
 #messageField {
-    height: 150px;
+    height: 120px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
 }
 
 /* The switch - the box around the slider */
@@ -195,6 +197,10 @@ input:checked + .slider:before {
         height: 50px;
         width: 75%;
         background-color: rgb(243, 243, 243);
+    }
+
+    .settings, .message {
+        grid-column: 1 / -1;
     }
 
     .members, 
