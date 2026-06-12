@@ -63,6 +63,12 @@ header {
     background-color: rgb(243, 243, 243);
 }
 
+.traffic,
+.daily {
+    border-bottom: 2px solid rgb(243, 243, 243);
+    }
+
+
 #send,
 #save, 
 #cancel,
