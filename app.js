@@ -23,6 +23,8 @@ alertBanner.addEventListener('click', e => {
     }
 });
 
+document.getElementById("alert").style.display = "none";
+
 // array for graph showing website traffic data
 let trafficData = {
     labels: [
