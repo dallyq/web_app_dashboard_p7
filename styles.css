@@ -41,14 +41,12 @@ header {
     background-color: rgb(94, 95, 142);
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .main {
     grid-area: main;
-    align-items: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 #the-dashboard {
@@ -66,20 +64,13 @@ header {
     background-color: rgb(243, 243, 243);
 }
 
-.social-container, .settings, .message, .daily, .members {
-    grid-column: 1;
-}
-
 .widget-container-full,
 .widget-container-half {
     width: 100%;
-    position: relative;
-    height: 300px;
 }
 
 @media (min-width: 375px) {
     .grid-container {
-        grid-template-columns: 55px 1fr;
         grid-template-areas: 
             "header header"
             "navigation main";
@@ -91,15 +82,12 @@ header {
 
     .nav-main {
         grid-area: navigation;
-        flex-direction: row;
-        height: 100%;
     }
 
     .main {
         grid-area: main;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
     }
 
     #the-dashboard {
