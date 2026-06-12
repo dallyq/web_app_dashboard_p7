@@ -63,11 +63,6 @@ header {
     background-color: rgb(243, 243, 243);
 }
 
-.widget-container-full,
-.widget-container-half {
-    width: 100%;
-}
-
 .settings, .message {
     grid-column: 1 / -1;
 }
@@ -223,6 +218,11 @@ input:checked + .slider:before {
     .message, .settings {
         grid-column: 1 / -1;
     }
+
+    /* .widget-container-full,
+        .widget-container-half {
+            width: 100%;
+    } */
 }
 
 @media (min-width: 768px) {
