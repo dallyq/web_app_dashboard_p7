@@ -64,9 +64,11 @@ header {
 }
 
 .traffic,
-.daily {
+.daily,
+.mobileusers,
+.social-container {
     border-bottom: 2px solid rgb(243, 243, 243);
-    }
+}
 
 
 #send,
