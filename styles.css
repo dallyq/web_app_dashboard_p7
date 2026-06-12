@@ -99,7 +99,7 @@ header {
 
 .slider:before {
   position: absolute;
-  content: "ON";
+  content: "";
   height: 26px;
   width: 26px;
   left: 4px;
@@ -114,7 +114,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #7884d1ff;
 }
 
 input:checked + .slider:before {
@@ -126,10 +126,12 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  width: 100px;
 }
 
 .slider.round:before {
   border-radius: 50%;
+  content: "ON";
 }
 
 
