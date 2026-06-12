@@ -76,6 +76,11 @@ header {
     gap: 30px;
 }
 
+.settings p,
+.slider.round {
+    flex-direction: column;
+}
+
 #send,
 #save, 
 #cancel {
