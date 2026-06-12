@@ -203,20 +203,26 @@ input:checked + .slider:before {
         background-color: rgb(243, 243, 243);
     }
 
+    .members, 
+    .social-container,
     .members {
-        display: flex;
+        grid-column: 1 / -1;
     }
 
-    .traffic, .social-container {
-        grid-column: 1 / span 2;
-    }
-
-    .daily, .members, .message {
+    .traffic {
         grid-column: 1 / span 1;
     }
 
-    .mobile, .activity, .settings {
+    .daily {
+        grid-column: 1 / span 1;
+    }
+
+    .mobile, .activity {
         grid-column: 2 / span 1;
+    }
+
+    .message, .settings {
+        grid-column: 1 / -1;
     }
 }
 
