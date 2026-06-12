@@ -44,6 +44,10 @@ header {
     justify-content: center;
 }
 
+.nav-main img {
+    margin: 5px 10px;
+}
+
 .main {
     grid-area: main;
 }
@@ -66,7 +70,10 @@ header {
 .traffic,
 .daily,
 .mobileusers,
-.social-container {
+.social-container,
+.members,
+.recentactivity,
+.message {
     border-bottom: 2px solid rgb(243, 243, 243);
 }
 
@@ -86,7 +93,8 @@ header {
     height: 120px;
 }
 
-img {
+.members img,
+.recentactivity img {
     height: 40px;
     width: 40px;
     border-radius: 100%;
