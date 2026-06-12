@@ -69,49 +69,23 @@ header {
     width: 100%;
 }
 
-.settings {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 10px;
-    gap: 30px;
-}
-
-.settings p,
-.slider.round {
-    flex-direction: column;
+.settings, .message {
+    grid-column: 1 / -1;
 }
 
 #send,
 #save, 
-#cancel {
-    border-radius: 5px;
-    color: white;
-    background-color: #7884d1ff;
-    height: 40px;
-}
-
+#cancel,
 #userField,
 #messageField,
 #timezone {
     border-radius: 5px;
     height: 40px;
-    background-color: rgb(243, 243, 243);
-    color: grey;
     width: 100%;
 }
 
 #messageField {
     height: 150px;
-}
-
-#save,
-#cancel {
-    width: 50%;
-    flex-direction: row;
-}
-
-#send {
-    width: 100%;
 }
 
 /* The switch - the box around the slider */
