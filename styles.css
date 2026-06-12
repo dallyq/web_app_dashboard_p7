@@ -104,6 +104,11 @@ header {
         background-color: rgb(243, 243, 243);
     }
 
+    .members {
+        display: flex;
+        
+    }
+
     .traffic, .social-container {
         grid-column: 1 / span 2;
     }
