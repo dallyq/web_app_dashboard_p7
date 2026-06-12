@@ -69,6 +69,14 @@ header {
     width: 100%;
 }
 
+#send,
+#save, 
+#cancel {
+    border-radius: 5px;
+    color: white;
+    background-color: #7884d1ff;
+}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
