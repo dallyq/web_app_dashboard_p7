@@ -93,9 +93,15 @@ header {
 #userField,
 #messageField,
 #timezone {
+    border-radius: 5px;
     height: 40px;
     background-color: rgb(243, 243, 243);
     color: grey;
+    width: 100%;
+}
+
+#messageField {
+    height: 150px;
 }
 
 #save,
