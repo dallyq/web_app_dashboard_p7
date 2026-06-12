@@ -168,7 +168,7 @@ input:checked + .slider:before {
 }
 
 
-@media (min-width: 720px) {
+@media (max-width: 768px) {
     .grid-container {
         grid-template-areas: 
             "header header"
@@ -226,3 +226,11 @@ input:checked + .slider:before {
     }
 }
 
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-areas: 
+            "header header"
+            "navigation main";
+    }
+
+}
