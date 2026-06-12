@@ -38,7 +38,7 @@ header {
 
 .nav-main {
     grid-area: navigation;
-    background-color: #595a99ff;
+    background-color: rgb(94, 95, 142);
     display: flex;
     flex-direction: row;
     justify-content: center;
