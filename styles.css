@@ -48,6 +48,11 @@ header {
     margin: 5px 10px;
 }
 
+.traffic-nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .main {
     grid-area: main;
 }
