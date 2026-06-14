@@ -99,6 +99,13 @@ header {
     border-radius: 100%;
 }
 
+.social-block {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+    margin: 10px;
+}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
