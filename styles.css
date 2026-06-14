@@ -85,7 +85,7 @@ header {
 #timezone {
     border-radius: 5px;
     height: 40px;
-    width: 60%;
+    width: 90%;
 }
 
 #messageField {
@@ -107,14 +107,13 @@ header {
 }
 
 .members-container,
-.activity-container {
+.activity-container,
+.widget-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
-
 
 /* The switch - the box around the slider */
 .switch {
