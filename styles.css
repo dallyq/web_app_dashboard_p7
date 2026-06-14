@@ -106,6 +106,15 @@ header {
     margin: 10px;
 }
 
+.members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
