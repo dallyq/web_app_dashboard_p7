@@ -107,7 +107,7 @@ header {
 }
 
 .members-container,
-.recentactivity {
+.activity-container {
     display: flex;
     flex-direction: column;
     align-items: center;
