@@ -51,6 +51,10 @@ header {
     grid-area: main;
 }
 
+a {
+    color: #7884d1ff;
+}
+
 #the-dashboard {
     display: flex;
     align-items: center;
