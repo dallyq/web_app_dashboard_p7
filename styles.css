@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -48,9 +47,8 @@ header {
     margin: 5px 10px;
 }
 
-.traffic-nav {
-    display: flex;
-    flex-direction: row;
+.traffic-nav-link {
+    width: 10px;
 }
 
 .main {
