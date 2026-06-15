@@ -61,6 +61,10 @@ a,
     color: darkgrey;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
 .social-block {
     display: flex;
     padding: 10px 10px;
