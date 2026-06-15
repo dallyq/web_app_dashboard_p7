@@ -141,8 +141,6 @@ h4 {
     margin: 10px;
 }
 
-.members-container,
-.activity-container,
 .widget-container {
     display: flex;
     flex-direction: column;
@@ -257,7 +255,6 @@ input:checked + .slider:before {
         display: flex;
         align-items: center;
         gap: 10px;
-        grid-column: 1 / span 2;
     }
 
     .tab {
