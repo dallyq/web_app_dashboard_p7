@@ -52,8 +52,21 @@ header {
     grid-area: main;
 }
 
-a {
+a,
+.social-text p {
     color: #7884d1ff;
+}
+
+.social-block {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.social-text {
+    display: grid;
+    justify-content: column;
+    margin: 10px;
 }
 
 #the-dashboard {
