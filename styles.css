@@ -243,6 +243,8 @@ input:checked + .slider:before {
 
     .nav-main {
         grid-area: navigation;
+        display: grid;
+        flex-direction: column;
     }
 
     .main {
