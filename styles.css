@@ -258,6 +258,10 @@ canvas {
         grid-area: header;
     }
 
+    .traffic {
+        grid-column: 1 / span 2;
+    }
+
     .nav-main {
         grid-area: navigation;
         display: grid;
@@ -266,6 +270,7 @@ canvas {
     nav {
         display: flex;
         flex-direction: column;
+        padding-top: 10px;
     }
 
     .main {
@@ -308,9 +313,7 @@ canvas {
         grid-column: 1 /-1;
     }
 
-   /* .traffic {
-        grid-column: 1 / span 1;
-    }
+   /*
 
     .daily {
         grid-column: 1 / span 1;
