@@ -289,6 +289,15 @@ canvas {
         grid-template-columns: 1fr 1fr;
     }
 
+    .social-container {
+        grid-column: 1 / span 2;
+        display: flex;
+    }
+
+    .social-block {
+        flex-grow: 1;
+    }
+
     #the-dashboard {
         display: flex;
         align-items: center;
