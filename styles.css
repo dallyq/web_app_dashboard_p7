@@ -107,6 +107,12 @@ h4 {
     border-bottom: 2px solid rgb(243, 243, 243);
 }
 
+.members-container,
+.activity-container {
+    display: grid;
+    justify-items: center;
+}
+
 .social-image {
     background-color: #7884d1ff;
     border-radius: 50%;
@@ -281,12 +287,6 @@ canvas {
     }
 
     .settings, .message, .members, .social-container {
-        grid-column: 1 / -1;
-    }
-
-    .members, 
-    .social-container,
-    .members {
         grid-column: 1 / -1;
     }
 
