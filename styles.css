@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,7 +16,6 @@
 header {
     grid-area: header;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: #7884d1ff;
     color: white;
@@ -40,6 +39,7 @@ header {
     grid-area: navigation;
     background-color: rgb(94, 95, 142);
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -231,12 +231,24 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.widget-container-full {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
 
-@media (min-width: 320px) {
+canvas {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+
+@media (min-width: 768px) {
     .grid-container {
         grid-template-areas: 
             "header header"
             "navigation main";
+        grid-template-columns: auto 1fr;
     }
 
     header {
@@ -246,7 +258,6 @@ input:checked + .slider:before {
     .nav-main {
         grid-area: navigation;
         display: grid;
-        flex-direction: column;
     }
 
     .main {
@@ -261,8 +272,6 @@ input:checked + .slider:before {
         gap: 10px;
     }
 
-
-
     .tab {
         flex: 1;
         height: 50px;
@@ -270,7 +279,7 @@ input:checked + .slider:before {
         background-color: rgb(243, 243, 243);
     }
 
-    .settings, .message {
+    .settings, .message, .members, .social-container {
         grid-column: 1 / -1;
     }
 
