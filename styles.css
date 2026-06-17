@@ -333,8 +333,12 @@ canvas {
         grid-template-columns: auto 1fr;
     }
 
-     .traffic {
+    .traffic {
         grid-column: 1 / span 2;
+    }
+
+    .members {
+        grid-column: span 1;
     }
 
     .message {
