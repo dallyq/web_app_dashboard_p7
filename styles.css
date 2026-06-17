@@ -296,7 +296,16 @@ canvas {
     .message, 
     .members, 
     .social-container {
-        grid-column: 1 / -1;
+        grid-column: 1 / 2;
+    }
+
+    .social-container {
+        grid-column: 1 / span 2;
+        display: flex;
+    }
+
+    .social-block {
+        flex-grow: 1;
     }
 
     .members-container,
