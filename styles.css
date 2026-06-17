@@ -107,11 +107,7 @@ h4 {
     border-bottom: 2px solid rgb(243, 243, 243);
 }
 
-.members-container,
-.activity-container {
-    display: grid;
-    justify-items: center;
-}
+
 
 .social-image {
     background-color: #7884d1ff;
@@ -267,6 +263,11 @@ canvas {
         display: grid;
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
     .main {
         grid-area: main;
         display: grid;
@@ -286,11 +287,28 @@ canvas {
         background-color: rgb(243, 243, 243);
     }
 
-    .settings, .message, .members, .social-container {
+    .settings, 
+    .message, 
+    .members, 
+    .social-container {
         grid-column: 1 / -1;
     }
 
-    .traffic {
+    .members-container,
+    .activity-container {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        align-items: center;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .members-container h4,
+    .activity-container h4 {
+        grid-column: 1 /-1;
+    }
+
+   /* .traffic {
         grid-column: 1 / span 1;
     }
 
@@ -306,17 +324,8 @@ canvas {
         grid-column: 1 / -1;
     }
 
-    /* .widget-container-full,
+     .widget-container-full,
         .widget-container-half {
             width: 100%;
     } */
-}
-
-@media (min-width: 768px) {
-    .grid-container {
-        grid-template-areas: 
-            "header header"
-            "navigation main";
-    }
-
 }
