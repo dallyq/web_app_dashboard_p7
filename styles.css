@@ -98,7 +98,7 @@ h4 {
 
 .members-text,
 .members-activity {
-    border-bottom: 0.23px solid rgb(202, 202, 202);
+    border-bottom: 0.23px solid rgb(255, 0, 0);
 }
 
 .traffic,
@@ -110,8 +110,6 @@ h4 {
 .message {
     border-bottom: 2px solid rgb(243, 243, 243);
 }
-
-
 
 .social-image {
     background-color: #7884d1ff;
@@ -140,8 +138,8 @@ h4 {
 
 .members img,
 .recentactivity img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
 }
 
@@ -157,6 +155,14 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.members-container,
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
 /* The switch - the box around the slider */
@@ -304,7 +310,6 @@ canvas {
     }
 
    /*
-
      .widget-container-full,
         .widget-container-half {
             width: 100%;
@@ -319,7 +324,7 @@ canvas {
         grid-template-columns: auto 1fr;
     }
 
-     .message {
+    .message {
         grid-column: 1;
     }
 
