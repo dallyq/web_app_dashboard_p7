@@ -300,7 +300,31 @@ canvas {
     .message, 
     .members, 
     .social-container {
-        grid-column: 1 / 2;
+        grid-column: 1 / span 2;
+    }
+
+   /*
+
+     .widget-container-full,
+        .widget-container-half {
+            width: 100%;
+    } */
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-areas: 
+            "header header"
+            "navigation main";
+        grid-template-columns: auto 1fr;
+    }
+
+     .message {
+        grid-column: 1;
+    }
+
+    .settings  {
+        grid-column: 2;
     }
 
     .social-container {
@@ -311,7 +335,7 @@ canvas {
     .social-block {
         flex-grow: 1;
     }
-
+    
     .members-container,
     .activity-container {
         display: grid;
@@ -321,27 +345,13 @@ canvas {
         gap: 10px;
     }
 
+    .social-block {
+        flex-grow: 1;
+    }
+
     .members-container h4,
     .activity-container h4 {
-        grid-column: 1 /-1;
-    }
-
-   /*
-
-    .daily {
-        grid-column: 1 / span 1;
-    }
-
-    .mobile, .activity {
-        grid-column: 2 / span 1;
-    }
-
-    .message, .settings {
         grid-column: 1 / -1;
     }
 
-     .widget-container-full,
-        .widget-container-half {
-            width: 100%;
-    } */
 }
