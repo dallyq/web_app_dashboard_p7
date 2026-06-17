@@ -255,6 +255,11 @@ canvas {
     height: auto !important;
 }
 
+.settings-row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
 @media (min-width: 768px) {
     .grid-container {
