@@ -281,6 +281,28 @@ input:checked + .slider:before {
     padding: 10px;
 }
 
+/* dropdown */
+#timezone {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 12px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    color: darkgray;
+
+    /* custom dropdown arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path fill='%237884d1' d='M2 4l4 4 4-4z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 32px;
+}
+
 @media (min-width: 768px) {
     .grid-container {
         grid-template-areas: 
