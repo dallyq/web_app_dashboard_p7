@@ -166,8 +166,7 @@ h4,
 
 .widget-container,
 .members-container,
-.activity-container,
-.settings-button {
+.activity-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,6 +188,23 @@ h4,
 .profile-image {
     margin-top: 10px;
 }
+
+.settings-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.settings-button button {
+    flex: 1;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
 
 /* The switch - the box around the slider */
 .switch {
