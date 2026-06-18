@@ -142,6 +142,10 @@ h4,
     color: white;
 }
 
+#save {
+    background-color: #7884d1ff;
+}
+
 #messageField {
     height: 120px;
 }
