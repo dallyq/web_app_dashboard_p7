@@ -158,6 +158,7 @@ h4 {
     align-items: center;
     text-align: center;
 }
+
 .members-container,
 .activity-container {
     display: flex;
@@ -253,10 +254,10 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.widget-container-full {
+.widget-container-full,
+.widget-container-half {
+    position: relative;
     width: 100%;
-    max-width: 100%;
-    overflow: hidden;
 }
 
 .settings-row {
