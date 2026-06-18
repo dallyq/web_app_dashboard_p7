@@ -167,7 +167,6 @@ h4,
 .widget-container,
 .members-container,
 .activity-container,
-#timezone,
 .settings-button {
     display: flex;
     flex-direction: column;
