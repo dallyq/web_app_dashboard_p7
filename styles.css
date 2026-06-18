@@ -259,11 +259,6 @@ input:checked + .slider:before {
     overflow: hidden;
 }
 
-canvas {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
 .settings-row {
     display: flex;
     align-items: center;
