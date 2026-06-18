@@ -135,9 +135,11 @@ h4,
 #userField,
 #messageField,
 #timezone {
+    border: 1px solid lightgrey;
     border-radius: 5px;
     height: 40px;
     width: 90%;
+    color: white;
 }
 
 #messageField {
