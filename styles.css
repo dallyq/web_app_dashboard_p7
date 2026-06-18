@@ -80,8 +80,14 @@ a,
 }
 
 h4 {
-    text-transform: uppercase;
     padding: 10px;
+}
+
+h4,
+#send,
+#save,
+#cancel {
+    text-transform: uppercase;
 }
 
 .social-block {
