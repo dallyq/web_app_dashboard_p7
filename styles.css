@@ -98,7 +98,8 @@ h4 {
 
 .members-text,
 .members-activity {
-    border-bottom: 0.23px solid rgb(255, 0, 0);
+    border-bottom: 0.23px solid rgb(202, 202, 202);
+    width: 300px;
 }
 
 .traffic,
@@ -162,7 +163,14 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+}
+
+.members-text {
+    padding-bottom: 15px;
+}
+
+.profile-image {
+    margin-top: 10px;
 }
 
 /* The switch - the box around the slider */
