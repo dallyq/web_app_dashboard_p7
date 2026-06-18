@@ -99,7 +99,8 @@ h4 {
 .members-text,
 .members-activity {
     border-bottom: 0.23px solid rgb(202, 202, 202);
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .traffic,
