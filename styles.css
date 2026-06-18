@@ -98,7 +98,6 @@ h4,
 
 .social-text {
     display: grid;
-    justify-content: column;
     margin: 10px;
 }
 
@@ -319,20 +318,34 @@ input:checked + .slider:before {
     padding-right: 32px;
 }
 
+.settings-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.settings-row p {
+    width: 200px;
+}
+
 @media (min-width: 768px) {
     .grid-container {
         grid-template-areas: 
             "header header"
             "navigation main";
-        grid-template-columns: auto(0, 1fr);
+        grid-template-columns: auto minmax(0, 1fr);
     }
 
     header {
         grid-area: header;
     }
 
-    .traffic {
+    .traffic,
+    .members, 
+    .recentactivity {
         grid-column: 1 / span 2;
+        
     }
 
     .nav-main {
