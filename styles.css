@@ -113,6 +113,7 @@ h4,
 .recentactivity,
 .message {
     border-bottom: 2px solid rgb(243, 243, 243);
+    padding-bottom: 10px;
 }
 
 main {
@@ -129,9 +130,15 @@ main {
     justify-content: center;
 }
 
-#send,
 #save, 
-#cancel,
+#cancel {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
+
+#send,
 #userField,
 #messageField,
 #timezone {
@@ -159,7 +166,7 @@ main {
 
 .social-block {
     background-color: rgb(243, 243, 243);
-    border: 1px solid lightgrey ;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     margin: 10px;
 }
@@ -192,7 +199,7 @@ main {
 .settings-button {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 10px auto;
     width: 95%;
 }
 
