@@ -99,8 +99,8 @@ h4,
     margin: 10px;
 }
 
-.members-text,
-.members-activity {
+.members-text:not(:last-child),
+.members-activity:not(:last-child) {
     border-bottom: 0.23px solid rgb(202, 202, 202);
     width: 100%;
     max-width: 300px;
