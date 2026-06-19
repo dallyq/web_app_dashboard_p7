@@ -79,10 +79,6 @@ a,
     color: darkgrey;
 }
 
-h4 {
-    padding: 10px;
-}
-
 h4,
 #send,
 #save,
@@ -116,6 +112,10 @@ h4,
 .recentactivity,
 .message {
     border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+main {
+    padding-left: 10px;
 }
 
 .social-image {
@@ -289,7 +289,7 @@ input:checked + .slider:before {
 .widget-container-half {
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 120px;
 }
 
 .settings-row {
