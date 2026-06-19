@@ -11,6 +11,7 @@
 .grid-container {
     width: 100%;
     display: grid;
+    grid-template-columns: minmax(0, 1fr); 
     grid-template-areas: 
     "header"
     "navigation"
@@ -204,7 +205,6 @@ main {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
-
 
 /* The switch - the box around the slider */
 .switch {
