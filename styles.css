@@ -335,12 +335,20 @@ canvas {
     width: 200px;
 }
 
+#the-dashboard {
+    grid-column: 1 / span 2;   /* spans 2 columns */
+}
+
+h4 {
+    margin: 10px;
+}
+
 @media (min-width: 768px) {
     .grid-container {
+        grid-template-columns: auto minmax(0, 1fr); 
         grid-template-areas: 
             "header header"
             "navigation main";
-        grid-template-columns: auto minmax(0, 1fr);
     }
 
     header {
@@ -423,10 +431,10 @@ canvas {
 
 @media (min-width: 1024px) {
     .grid-container {
+        grid-template-columns: auto 1fr;
         grid-template-areas: 
             "header header"
             "navigation main";
-        grid-template-columns: auto 1fr;
     }
 
     .traffic {
