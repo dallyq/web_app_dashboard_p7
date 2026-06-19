@@ -10,6 +10,7 @@
 
 .grid-container {
     width: 100%;
+    min-width: 296px;
     display: grid;
     grid-template-columns: minmax(0, 1fr); 
     grid-template-areas: 
