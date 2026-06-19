@@ -78,7 +78,7 @@ a,
 }
 
 .social-text h2 {
-    color: darkgrey;
+    color: #646464;
 }
 
 h4,
@@ -189,7 +189,8 @@ main {
     background-color: darkgrey;
 }
 
-.members-text {
+.members-text,
+.members-activity {
     padding-bottom: 15px;
 }
 
