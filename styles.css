@@ -77,6 +77,12 @@ a,
     color: #7884d1ff;
 }
 
+input,
+textarea {
+    color: #646464;
+    background-color: rgb(243, 243, 243);
+}
+
 .social-text h2 {
     color: #646464;
 }
@@ -119,6 +125,7 @@ h4,
 
 main {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .social-image {
@@ -146,7 +153,7 @@ main {
     border: 1px solid lightgrey;
     border-radius: 5px;
     height: 40px;
-    width: 95%;
+    width: 100%;
     color: white;
 }
 
@@ -202,7 +209,7 @@ main {
     display: flex;
     gap: 10px;
     margin-top: 10px auto;
-    width: 95%;
+    width: 100%;
 }
 
 .settings-button button {
