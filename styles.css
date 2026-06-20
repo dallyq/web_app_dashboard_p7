@@ -205,40 +205,26 @@ main {
     margin-top: 10px;
 }
 
-.settings-button {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px auto;
-    width: 100%;
-}
-
-.settings-button button {
-    flex: 1;
-    height: 40px;
-    border-radius: 5px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-}
-
-/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
   width: 100px;
-  height: 34px;
+  height: 35px;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
+/* Makes width include the borders, so the maths below is exact */
+.slider,
+.slider:before {
+  box-sizing: border-box;
+}
+
 .slider {
-  border: 2px solid darkgray;
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -246,59 +232,58 @@ main {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
+  border: 2px solid darkgray;
+  border-radius: 34px;
   transition: .4s;
 }
 
 .slider:before {
-  position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  position: absolute;
+  height: 22px;
+  width: 22px;
   left: 4px;
-  bottom: 4px;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: white;
-  -webkit-transition: .4s;
+  border: 2px solid darkgray;
+  border-radius: 50%;
   transition: .4s;
 }
 
 .slider::after {
   content: "OFF";
   position: absolute;
-  right: 12px;
   top: 50%;
+  right: 12px;
   transform: translateY(-50%);
-  color: white;
+  color: #555;
   font-size: 12px;
   font-weight: bold;
-}
-
-input:checked + .slider::after {
-  content: "ON";
-  right: auto;
-  left: 12px;  
 }
 
 input:checked + .slider {
   background-color: #7884d1ff;
 }
 
+input:checked + .slider::after {
+  content: "ON";
+  color: white;
+  right: auto;
+  left: 14px;
+}
+
+input:checked + .slider:before {
+  transform: translate(66px, -50%);
+}
+
 input:focus + .slider {
   box-shadow: 0 0 1px #7884d1ff;
 }
 
-input:checked + .slider:before {
-  transform: translateX(66px);
-}
-
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
   width: 100px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
 
 .widget-container-full,
