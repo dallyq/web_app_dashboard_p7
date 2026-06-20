@@ -215,7 +215,6 @@ main {
 .settings-button button {
     flex: 1;
     height: 40px;
-    border: none;
     border-radius: 5px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -239,6 +238,7 @@ main {
 
 /* The slider */
 .slider {
+  border: 2px solid darkgray;
   position: absolute;
   cursor: pointer;
   top: 0;
