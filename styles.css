@@ -81,6 +81,8 @@ input,
 textarea {
     color: #646464;
     background-color: rgb(243, 243, 243);
+    margin: 10px;
+    padding: 10px;
 }
 
 .social-text h2 {
@@ -309,6 +311,8 @@ input:focus + .slider {
 canvas {
   max-width: 100%;
 }
+
+
 
 /* dropdown */
 #timezone {
