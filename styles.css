@@ -138,12 +138,19 @@ main {
     justify-content: center;
 }
 
+.settings-button {
+    display: flex;
+    grid-gap: 10px;
+}
+
 #save, 
 #cancel {
     border: 1px solid lightgrey;
     border-radius: 5px;
     height: 40px;
     color: white;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
 }
 
 #send,
