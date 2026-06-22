@@ -374,11 +374,6 @@ h4 {
         margin: 5px;
     }
 
-    .members-text a,
-    .members-text p {
-        justify-items: left;
-    }
-
     .profile-image {
         margin-top: 0px;
     }
@@ -387,11 +382,8 @@ h4 {
     .members-activity {
         padding-left: 20px;
         padding-bottom: 0px;
-    }
-
-    .date {
-        justify-self: right;
-    }   
+        padding-top: 20px;
+    }  
 
     .nav-main {
         grid-area: navigation;
