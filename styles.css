@@ -106,7 +106,6 @@ h4,
 .members-activity:not(:last-child) {
     border-bottom: 0.23px solid rgb(202, 202, 202);
     width: 100%;
-    max-width: 300px;
 }
 
 .traffic,
@@ -439,11 +438,6 @@ h4 {
         grid-template-columns: 40px minmax(0, 1fr);
         align-items: center;
         text-align: left;
-    }
-
-    .members-container h4,
-    .activity-container h4 {
-        grid-column: 1 / -1;
     }
 
    /*
