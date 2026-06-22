@@ -365,9 +365,7 @@ h4 {
         border-right: 0.23px solid rgb(202, 202, 202);
     }
 
-    .traffic,
-    .members, 
-    .recentactivity {
+    .traffic {
         grid-column: 1 / span 2;
     }
 
@@ -415,18 +413,18 @@ h4 {
         flex-grow: 1;
     }
 
-    #the-dashboard {
+    /* #the-dashboard {
         display: flex;
         align-items: center;
         gap: 10px;
-    }
+    } */
 
-    .tab {
+   /* .tab {
         flex: 1;
         height: 50px;
         width: 75%;
         background-color: rgb(243, 243, 243);
-    }
+    } */
 
     .settings, 
     .message, 
@@ -441,7 +439,6 @@ h4 {
         grid-template-columns: 40px minmax(0, 1fr);
         align-items: center;
         text-align: left;
-        gap: 10px;
     }
 
     .members-container h4,
