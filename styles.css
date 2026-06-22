@@ -369,12 +369,25 @@ h4 {
     .members, 
     .recentactivity {
         grid-column: 1 / span 2;
-        justify-content: flex-start;
     }
 
     .social-block {
         margin: 5px;
     }
+
+    .members-text {
+        display: grid;
+        min-width: 300px;
+    }
+
+    .members-text a,
+    .members-text p {
+        justify-items: left;
+    }
+
+    .date {
+        justify-self: right;
+    }   
 
     .nav-main {
         grid-area: navigation;
