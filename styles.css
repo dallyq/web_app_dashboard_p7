@@ -401,8 +401,12 @@ h4 {
 
     .activity-container {
         display: grid;
-        grid-template-columns: 1fr auto;
-        width: 100%;
+        grid-template-columns: auto 1fr;
+        column-gap: 10px;
+    }
+
+    .profile-image {
+        margin: 10px;
     }
 
     .date {
