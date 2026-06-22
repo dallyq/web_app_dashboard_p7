@@ -75,14 +75,12 @@ header {
 a,
 .social-text p {
     color: #7884d1ff;
-    font-size: 12px;
 }
 
 input,
 textarea {
     color: #646464;
     background-color: rgb(243, 243, 243);
-    margin: 5px;
     padding: 10px;
 }
 
@@ -346,13 +344,8 @@ canvas {
     width: 200px;
 }
 
-#the-dashboard {
-    grid-column: 1 / span 2;   /* spans 2 columns */
-}
-
 h4 {
     margin: 10px;
-    font-size: 12px;
 }
 
 @media (min-width: 768px) {
