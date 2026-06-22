@@ -75,6 +75,7 @@ header {
 a,
 .social-text p {
     color: #7884d1ff;
+    font-size: 12px;
 }
 
 input,
@@ -313,8 +314,6 @@ canvas {
   max-width: 100%;
 }
 
-
-
 /* dropdown */
 #timezone {
     display: block;
@@ -353,6 +352,7 @@ canvas {
 
 h4 {
     margin: 10px;
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {
