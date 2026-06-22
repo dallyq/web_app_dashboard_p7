@@ -402,7 +402,6 @@ h4 {
     .activity-container {
         display: grid;
         grid-template-columns: auto 1fr;
-        column-gap: 10px;
     }
 
     .profile-image {
