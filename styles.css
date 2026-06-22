@@ -379,6 +379,16 @@ h4 {
         justify-items: left;
     }
 
+    .profile-image {
+        margin-top: 0px;
+    }
+
+    .members-text,
+    .members-activity {
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+
     .date {
         justify-self: right;
     }   
