@@ -364,17 +364,14 @@ h4 {
         border-right: 0.23px solid rgb(202, 202, 202);
     }
 
-    .traffic {
+    .traffic,
+    .activity-container,
+    .recentactivity {
         grid-column: 1 / span 2;
     }
 
     .social-block {
         margin: 5px;
-    }
-
-    .members-text {
-        display: grid;
-        min-width: 300px;
     }
 
     .members-text a,
