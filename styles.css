@@ -372,6 +372,10 @@ h4 {
         justify-content: flex-start;
     }
 
+    .social-block {
+        margin: 5px;
+    }
+
     .nav-main {
         grid-area: navigation;
         display: grid;
