@@ -119,8 +119,6 @@ h4,
 
 .main {
     grid-area: main;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .social-image {
