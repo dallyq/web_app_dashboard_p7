@@ -101,7 +101,7 @@ h4,
     margin: 10px;
 }
 
-.members-text:not(:last-child),
+.member-info:not(:last-child),
 .members-activity:not(:last-child) {
     border-bottom: 0.23px solid rgb(202, 202, 202);
     width: 100%;
@@ -395,7 +395,7 @@ h4 {
         width: 100%;
     }
 
-    .member-info:not(:last-child),
+    .members-container:not(:last-child),
     .members-activity:not(:last-child) {
         border-bottom: 0.23px solid rgb(202, 202, 202);
     }
