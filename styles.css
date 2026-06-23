@@ -404,7 +404,6 @@ h4 {
 
     .activity-container {
         display: grid;
-        grid-template-columns: auto 1fr;
     }
 
     .profile-image {
@@ -468,7 +467,8 @@ h4 {
     .settings, 
     .message, 
     .members, 
-    .social-container {
+    .social-container,
+    .recentactivity {
         grid-column: 1 / span 2;
     }
 
