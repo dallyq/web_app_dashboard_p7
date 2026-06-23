@@ -75,6 +75,7 @@ textarea {
     color: #646464;
     background-color: rgb(243, 243, 243);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .social-text h2 {
@@ -346,6 +347,8 @@ canvas {
 h4 {
     padding: 10px;
 }
+
+
 
 @media (min-width: 768px) {
     .grid-container {
