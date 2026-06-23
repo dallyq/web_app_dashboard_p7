@@ -395,7 +395,8 @@ h4 {
         width: 100%;
     }
 
-    .members-text:not(:last-child) {
+    .member-info:not(:last-child),
+    .members-activity:not(:last-child) {
         border-bottom: 0.23px solid rgb(202, 202, 202);
     }
 
