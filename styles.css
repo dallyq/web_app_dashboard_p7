@@ -192,6 +192,11 @@ h4,
     padding: 10px;
 }
 
+.message {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #send {
     background-color: #7884d1ff;
 }
