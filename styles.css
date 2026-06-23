@@ -56,7 +56,6 @@ header {
 #the-dashboard {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .tab {
@@ -79,7 +78,8 @@ textarea {
 }
 
 .social-text h2 {
-    color: #646464;
+    color: #7f7f7f;
+    font-size: 40px;
 }
 
 h4,
