@@ -103,7 +103,7 @@ h4,
 .member-info:not(:last-child),
 .members-activity:not(:last-child) {
     border-bottom: 0.23px solid rgb(202, 202, 202);
-    width: 100%;
+    width: 90%;
 }
 
 .traffic,
