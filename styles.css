@@ -367,6 +367,10 @@ h4 {
         width: 100%;
     }
 
+    .arrow {
+        display: block;
+    }
+
     .members-text,
     .activitylog {
         display: grid;
@@ -389,10 +393,6 @@ h4 {
     .recentactivity p {
         margin: 0;
         line-height: 1.2;
-    }
-
-    .members-activity .time {
-        margin-top: 2px;   /* tiny breathing room */
     }
 
     header {
@@ -432,6 +432,7 @@ h4 {
         margin: 10px;
     }
 
+    .arrow,
     .date {
         grid-column: 2;
         grid-row: 1 / 3;
