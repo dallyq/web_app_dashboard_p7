@@ -364,15 +364,6 @@ h4 {
         min-height: 70px;
     }
 
-    .recentactivity {
-        display: grid;
-        grid-template-columns: 70px 1fr;
-        grid-template-rows: auto auto;
-        align-items: center;
-        width: 100%;
-        min-height: 70px;
-    }
-
 .members-activity img,
 .recentactivity img {
     grid-column: 1;
@@ -437,7 +428,7 @@ h4 {
     }
 
     .date,
-     {
+    .arrow {
         grid-column: 2;
         grid-row: 1 / 3;
         text-align: right;
@@ -493,10 +484,6 @@ h4 {
     .social-container,
     .recentactivity {
         grid-column: 1 / span 2;
-    }
-
-    .date {
-        text-align: right;
     }
 
     .members-container {
