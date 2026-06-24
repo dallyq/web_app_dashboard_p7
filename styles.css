@@ -373,11 +373,6 @@ h4 {
 
     .members-text,
     .activitylog {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-template-rows: auto auto;
-        align-items: center;
-        column-gap: 10px;
         width: 100%;
     }
 
@@ -401,11 +396,6 @@ h4 {
 
     .daily {
         border-right: 0.23px solid rgb(202, 202, 202);
-    }
-
-    .widget-container-full,
-    .widget-container-half {
-        height: 100%;
     }
 
     .traffic,
