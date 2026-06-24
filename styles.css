@@ -368,7 +368,7 @@ h4 {
     }
 
     .members-text,
-    .member-info {
+    .activitylog {
         display: grid;
         grid-template-columns: 1fr auto;
         grid-template-rows: auto auto;
