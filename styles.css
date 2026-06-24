@@ -467,7 +467,8 @@ h4 {
         display: flex;
     }
 
-    .member-info {
+    .member-info,
+    .members-activity {
         display: flex;
         align-items: center;
     }
