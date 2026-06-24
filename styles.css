@@ -356,7 +356,7 @@ h4 {
         }
 
     .members-activity {
-        display: grid;
+        display: flex;
         grid-template-columns: 70px 1fr;
         grid-template-rows: auto auto;
         align-items: center;
@@ -364,19 +364,19 @@ h4 {
         min-height: 70px;
     }
 
-.members-activity img,
-.recentactivity img {
-    grid-column: 1;
-    grid-row: 1 / 3;
-    align-self: center;
-    margin: 0 10px;
-}
+    .members-activity img,
+    .recentactivity img {
+        grid-column: 1;
+        grid-row: 1 / 3;
+        align-self: center;
+        margin: 0 10px;
+    }
 
-.members-activity p
-.recentactivity p {
-    margin: 0;
-    line-height: 1.2;
-}
+    .members-activity p
+    .recentactivity p {
+        margin: 0;
+        line-height: 1.2;
+    }
 
     header {
         grid-area: header;
@@ -492,6 +492,7 @@ h4 {
     }
 
     .activity-container {
+        dislay: grid;
         text-align: left;
     }
 }
