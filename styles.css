@@ -373,6 +373,9 @@ h4 {
 
     .members-text,
     .activitylog {
+        display: grid;
+        grid-template-rows: auto auto;
+        align-items: center;
         width: 100%;
     }
 
@@ -390,12 +393,22 @@ h4 {
         line-height: 1.2;
     }
 
+    .members-container,
+    .recentactivity {
+        padding-right: 10px;
+    }
+
     header {
         grid-area: header;
     }
 
     .daily {
         border-right: 0.23px solid rgb(202, 202, 202);
+    }
+
+    .widget-container-full,
+    .widget-container-half {
+        height: 100%;
     }
 
     .traffic,
