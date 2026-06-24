@@ -367,7 +367,8 @@ h4 {
         width: 100%;
     }
 
-    .members-text {
+    .members-text,
+    .member-info {
         display: grid;
         grid-template-columns: 1fr auto;
         grid-template-rows: auto auto;
@@ -384,10 +385,14 @@ h4 {
         margin: 0 10px;
     }
 
-    .members-activity p
+    .members-activity p,
     .recentactivity p {
         margin: 0;
         line-height: 1.2;
+    }
+
+    .members-activity .time {
+        margin-top: 2px;   /* tiny breathing room */
     }
 
     header {
@@ -432,15 +437,6 @@ h4 {
         grid-row: 1 / 3;
         text-align: right;
         align-self: center;
-    }
-
-    .arrow {
-        display: block; 
-        grid-column: 3;
-        grid-row: 1 / 3;
-        align-self: center;
-        text-align: right;
-        margin-right: 10px;
     }
 
     .nav-main {
