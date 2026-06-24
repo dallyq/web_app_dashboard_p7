@@ -377,6 +377,7 @@ h4 {
         grid-template-rows: auto auto;
         align-items: center;
         width: 100%;
+        padding-bottom: 0px;
     }
 
     .members-activity img,
@@ -501,7 +502,7 @@ h4 {
     }
 
     .activity-container {
-        dislay: grid;
+        display: grid;
         text-align: left;
     }
 }
