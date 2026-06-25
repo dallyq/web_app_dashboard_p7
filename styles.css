@@ -525,19 +525,13 @@ h4 {
             "navigation main";
     }
 
-    .traffic {
-        grid-column: 1 / span 2;
-    }
-
+    .message,
     .members {
-        grid-column: span 1;
-    }
-
-    .message {
         grid-column: 1;
     }
 
-    .settings  {
+    .settings,
+    .recentactivity  {
         grid-column: 2;
     }
 
