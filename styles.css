@@ -182,6 +182,7 @@ h4,
     height: 120px;
 }
 
+.member-info img,
 .members img,
 .recentactivity img {
     height: 50px;
@@ -397,6 +398,7 @@ h4 {
         margin: 0 10px;
     }
 
+    .member-info p,
     .members-activity p,
     .recentactivity p {
         margin: 0;
@@ -485,19 +487,6 @@ h4 {
         flex-grow: 1;
     }
 
-    /* #the-dashboard {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    } */
-
-   /* .tab {
-        flex: 1;
-        height: 50px;
-        width: 100%;
-        background-color: rgb(243, 243, 243);
-    } */
-
     .settings, 
     .message, 
     .members, 
@@ -525,6 +514,24 @@ h4 {
             "navigation main";
     }
 
+    .members,
+    .recentactivity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-info,
+    .members-activity {
+        min-height: 70px; 
+        padding-bottom: 0px;
+    }
+
+    .members-container,
+    .activity-container {
+        flex: 1;              
+        grid-auto-rows: 1fr;  
+    }
+
     .message,
     .members {
         grid-column: 1;
@@ -540,7 +547,7 @@ h4 {
         display: flex;
     }
 
-    .social-block {
+     .social-block {
         flex-grow: 1;
     }
 
