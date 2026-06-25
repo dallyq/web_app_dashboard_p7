@@ -550,10 +550,7 @@ h4 {
     .social-container {
         grid-column: 1 / span 2;
         display: flex;
-    }
-
-     .social-block {
-        flex-grow: 1;
+        padding: 10px;
     }
 
 }
