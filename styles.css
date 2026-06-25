@@ -19,9 +19,12 @@
     "main";
 }
 
-.alert {
-    margin: 10px;
+.alert-banner {
+    display: grid;
     grid-column: 1 / span 2;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 10px;
     background-color: #7884d1ff;
     border-radius: 5px;
     color: white;
