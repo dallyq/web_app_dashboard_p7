@@ -22,12 +22,19 @@
 .alert-banner {
     display: grid;
     grid-column: 1 / span 2;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
+    height: 32px;
     align-items: center;
     margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #7884d1ff;
     border-radius: 5px;
     color: white;
+}
+
+.alert {
+    grid-column: 1 / span 2;
 }
 
 header {
