@@ -99,6 +99,30 @@ textarea {
     margin-bottom: 10px;
 }
 
+.traffic-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.traffic-nav {
+  display: flex;
+  list-style: none; 
+  gap: 5px;
+}
+
+.traffic-nav-link {
+  padding: 5px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.traffic-nav-link.active {
+  background-color: #63c26e;  
+  color: white;
+}
+
 .social-text h2 {
     color: #7f7f7f;
     font-size: 40px;
