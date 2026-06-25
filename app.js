@@ -116,7 +116,7 @@ let dailyChart = new Chart(dailyCanvas, {
 
 // mobile users doughnut data
 const mobileData = {
-    label: ["Desktop", "Tablet", "Phones"],
+    labels: ["Desktop", "Tablet", "Phones"],
     datasets: [{
         label: '# of Users',
         data: [2000, 550, 500],
