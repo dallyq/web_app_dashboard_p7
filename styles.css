@@ -515,6 +515,11 @@ h4 {
     }
 
     .members,
+    .message {
+        border-right: 0.23px solid rgb(202, 202, 202);
+    }
+
+    .members,
     .recentactivity {
         display: flex;
         flex-direction: column;
