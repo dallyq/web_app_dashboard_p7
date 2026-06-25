@@ -544,13 +544,4 @@ h4 {
         flex-grow: 1;
     }
 
-    .social-block {
-        flex-grow: 1;
-    }
-
-    .members-container h4,
-    .activity-container h4 {
-        grid-column: 1 / -1;
-    }
-
 }
