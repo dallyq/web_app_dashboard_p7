@@ -67,7 +67,10 @@ header {
     justify-content: center;
 }
 
-.nav-main img {
+.home-svg,
+.barchart-svg,
+.members-svg,
+.settings-svg {
     margin: 5px 10px;
 }
 
