@@ -45,6 +45,21 @@ header {
     color: white;
 }
 
+.bell {
+    position: relative;
+    display: inline-flex;
+}
+
+.dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background: #e53935;
+    border-radius: 50%;
+}
+
 .header-divider {
     border-left: 0.23px solid rgb(202, 202, 202);
     height: 35px;
