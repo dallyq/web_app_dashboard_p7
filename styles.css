@@ -45,10 +45,6 @@ header {
     color: white;
 }
 
-.searchbar {
-    width: 50%;
-}
-
 .header-divider {
     border-left: 0.23px solid rgb(202, 202, 202);
     height: 35px;
