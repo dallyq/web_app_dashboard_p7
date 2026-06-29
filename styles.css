@@ -60,6 +60,10 @@ header {
     border-radius: 50%;
 }
 
+.bell:hover {
+   transform: scale(1.2);
+}
+
 .header-divider {
     border-left: 0.23px solid rgb(202, 202, 202);
     height: 35px;
