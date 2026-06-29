@@ -61,7 +61,7 @@ header {
 }
 
 .bell:hover {
-   transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .header-divider {
@@ -93,8 +93,8 @@ header {
 }
 
 .traffic-header h4 {
-  text-align: left;
-   align-self: flex-start;
+    text-align: left;
+    align-self: flex-start;
 }
 
 .home-svg,
@@ -130,27 +130,27 @@ textarea {
 }
 
 .traffic-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .traffic-nav {
-  display: flex;
-  list-style: none; 
-  gap: 5px;
+    display: flex;
+    list-style: none; 
+    gap: 5px;
 }
 
 .traffic-nav-link {
-  padding: 5px 12px;
-  border-radius: 15px;
-  cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .traffic-nav-link.active {
-  background-color: #63c26e;  
-  color: white;
+    background-color: #63c26e;  
+    color: white;
 }
 
 .social-text h2 {
@@ -294,83 +294,82 @@ h4,
 }
 
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 100px;
-  height: 35px;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
 }
 
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
-/* Makes width include the borders, so the maths below is exact */
 .slider,
 .slider:before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  border: 2px solid darkgray;
-  border-radius: 34px;
-  transition: .4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border: 2px solid darkgray;
+    border-radius: 34px;
+    transition: .4s;
 }
 
 .slider:before {
-  content: "";
-  position: absolute;
-  height: 22px;
-  width: 22px;
-  left: 4px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  border: 2px solid darkgray;
-  border-radius: 50%;
-  transition: .4s;
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    transition: .4s;
 }
 
 .slider::after {
-  content: "OFF";
-  position: absolute;
-  top: 50%;
-  right: 12px;
-  transform: translateY(-50%);
-  color: #555;
-  font-size: 12px;
+    content: "OFF";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 12px;
 }
 
 input:checked + .slider {
-  background-color: #7884d1ff;
+    background-color: #7884d1ff;
 }
 
 input:checked + .slider::after {
-  content: "ON";
-  color: white;
-  right: auto;
-  left: 14px;
+    content: "ON";
+    color: white;
+    right: auto;
+    left: 14px;
 }
 
 input:checked + .slider:before {
-  transform: translate(66px, -50%);
+    transform: translate(66px, -50%);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #7884d1ff;
+    box-shadow: 0 0 1px #7884d1ff;
 }
 
 .slider.round {
-  border-radius: 34px;
-  width: 100px;
+    border-radius: 34px;
+    width: 100px;
 }
 
 .widget-container-full,
